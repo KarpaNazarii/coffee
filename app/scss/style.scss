@@ -1,0 +1,31 @@
+@import "vars";
+
+/*Blocks*/
+@import "container";
+@import "header";
+@import "content";
+@import "intro";
+@import "story";
+@import "product";
+@import "shop";
+@import "offer";
+@import "picture";
+@import "history";
+@import "subscribe";
+@import "footer";
+@import "end";
+
+body{
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}

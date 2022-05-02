@@ -1,0 +1,20 @@
+
+.end {
+    // .end__inner
+    &__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+    // .end__left
+    &__left {
+        color: $black;
+        opacity: 0.3;
+    }
+    // .end__right
+    &__right {
+        color: $black;
+        opacity: 0.3;
+    }
+}
+
